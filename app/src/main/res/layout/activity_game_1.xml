@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/card1"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/card2"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card3"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card4"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card5"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card6"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/card7"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card8"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/card9"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/card10"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/card_back"
+        android:scaleType="centerInside"/>
+
+
+
+
+    <!-- Add 6 more ImageView elements with different src attributes for your 8 images -->
+
+</GridLayout>

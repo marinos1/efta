@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/card11"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/button1"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/card2"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/button2"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card3"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/button3"
+        android:scaleType="centerInside"/>
+    <ImageView
+        android:id="@+id/card4"
+        android:onClick="onCardClick"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/button4"
+        android:scaleType="centerInside"/>
+
+
+
+    <!-- Add 6 more ImageView elements with different src attributes for your 8 images -->
+
+</GridLayout>
