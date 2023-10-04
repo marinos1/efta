@@ -32,23 +32,36 @@ public class arcade extends AppCompatActivity {
                 findViewById(R.id.card7),
                 findViewById(R.id.card8),
                 findViewById(R.id.card9),
-                findViewById(R.id.card10),
+                findViewById(R.id.card101),
+                findViewById(R.id.card102),
+                findViewById(R.id.card103),
+                findViewById(R.id.card104),
+                findViewById(R.id.card105),
+                findViewById(R.id.card106),
+                findViewById(R.id.card107),
 
                 // Add two more cards here
         };
 
         // Initialize your card images (pairs)
         cardImages = new int[] {
-                R.drawable.card_front1,
-                R.drawable.card_front1,
-                R.drawable.card_front2,
-                R.drawable.card_front2,
-                R.drawable.card_front3,
-                R.drawable.card_front3,
-                R.drawable.card_front4,
-                R.drawable.card_front4,
-                R.drawable.card_front5,
-                R.drawable.card_front5,
+                R.drawable.a1,
+                R.drawable.a2,
+                R.drawable.a3,
+                R.drawable.a4,
+                R.drawable.a5,
+                R.drawable.a6,
+                R.drawable.a7,
+                R.drawable.a8,
+                R.drawable.a1,
+                R.drawable.a2,
+                R.drawable.a3,
+                R.drawable.a4,
+                R.drawable.a5,
+                R.drawable.a6,
+                R.drawable.a7,
+                R.drawable.a8,
+
 
         };
 
