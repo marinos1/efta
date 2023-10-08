@@ -1,12 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<GridLayout android:layout_width="match_parent"
+    android:background="#E4DABA"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:rowCount="1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    app:srcCompat="@drawable/g28739">
+
+</ImageView>  </GridLayout>
+
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="#E4DABA"
     android:columnCount="2"
     android:rowCount="4"
     android:padding="16dp">
+
 
     <ImageView
         android:id="@+id/card11"
@@ -51,3 +72,4 @@
     <!-- Add 6 more ImageView elements with different src attributes for your 8 images -->
 
 </GridLayout>
+</LinearLayout>

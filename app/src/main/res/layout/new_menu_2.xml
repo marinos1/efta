@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- First GridLayout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:background="#E4DABA"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/g28739">
+
+
+        </ImageView>
+
+
+        <!-- Child views for the first GridLayout -->
+        <!-- Define your buttons, images, or other views here -->
+
+    </GridLayout>
+
+    <!-- Second GridLayout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E4DABA"
+        android:columnCount="4"
+        android:padding="16dp"
+
+        android:rowCount="4">
+
+
+        <ImageView
+            android:id="@+id/btn_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:rotationX="0"
+            app:srcCompat="@drawable/new_game" />
+
+        <ImageView
+            android:id="@+id/btn_new_game1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center"
+            app:srcCompat="@drawable/level" />
+
+        <ImageView
+            android:id="@+id/btn_new_game2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="300dp"
+            app:srcCompat="@drawable/exit_new" />
+
+
+        <ImageView
+            android:id="@+id/music_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginTop="260dp"
+            app:srcCompat="@drawable/settings_button" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="260dp"
+            app:srcCompat="@drawable/g9777" />
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

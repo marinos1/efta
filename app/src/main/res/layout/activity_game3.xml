@@ -1,0 +1,223 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- First GridLayout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:background="#E4DABA"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="1">
+
+
+        <Button
+            android:id="@+id/returnHomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+
+        <TextView
+            android:id="@+id/moveCountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moves: 0"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"/>
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+
+        <!-- Child views for the first GridLayout -->
+        <!-- Define your buttons, images, or other views here -->
+
+    </GridLayout>
+
+    <!-- Second GridLayout -->
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:background="#E4DABA"
+        android:padding="16dp"
+        android:rowCount="4">
+
+
+
+        <ImageView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card101"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card102"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+        <ImageView
+            android:id="@+id/card103"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/card104"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+        <ImageView
+            android:id="@+id/card105"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+        <ImageView
+            android:id="@+id/card106"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+        <ImageView
+            android:id="@+id/card107"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+
+
+        <!-- Add 6 more ImageView elements with different src attributes for your 8 images -->
+
+    </GridLayout>
+
+</LinearLayout>
