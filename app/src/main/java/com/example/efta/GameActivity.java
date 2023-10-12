@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Random;
+
 public class GameActivity extends AppCompatActivity {
 
     private CountDownTimer timer;
@@ -64,6 +66,11 @@ public class GameActivity extends AppCompatActivity {
     private void startGame() {
         // Initialize game variables, shuffle cards, and start the timer
         // Example: shuffleCards();
+
+
+
+
+
 
     }}
 
