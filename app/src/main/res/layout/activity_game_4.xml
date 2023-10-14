@@ -64,7 +64,7 @@
         android:rowCount="4">
 
         <ImageView
-            android:id="@+id/card36b"
+            android:id="@+id/e1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -74,7 +74,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card35b"
+            android:id="@+id/e2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -84,7 +84,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card34b"
+            android:id="@+id/e3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -94,7 +94,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card33b"
+            android:id="@+id/e4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -104,7 +104,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card32b"
+            android:id="@+id/e5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -114,7 +114,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card31b"
+            android:id="@+id/e6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -124,7 +124,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card30b"
+            android:id="@+id/e7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -134,7 +134,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card29b"
+            android:id="@+id/e8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -145,7 +145,7 @@
 
 
         <ImageView
-            android:id="@+id/card1b"
+            android:id="@+id/e9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -156,7 +156,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card2b"
+            android:id="@+id/e10"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -166,7 +166,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card3b"
+            android:id="@+id/e11"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -176,7 +176,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card4b"
+            android:id="@+id/e12"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -186,7 +186,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card5b"
+            android:id="@+id/e13"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -196,7 +196,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card6b"
+            android:id="@+id/e14"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -206,7 +206,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card7b"
+            android:id="@+id/e15"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -216,7 +216,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card8b"
+            android:id="@+id/e16"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -226,7 +226,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card9b"
+            android:id="@+id/e17"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -237,7 +237,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card101b"
+            android:id="@+id/e18"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -247,7 +247,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card102b"
+            android:id="@+id/e19"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -257,7 +257,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card103b"
+            android:id="@+id/e20"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"

@@ -64,7 +64,7 @@
         android:rowCount="4">
 
         <ImageView
-            android:id="@+id/card36b"
+            android:id="@+id/c1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -74,7 +74,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card35b"
+            android:id="@+id/c2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -84,7 +84,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card34b"
+            android:id="@+id/c3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -94,7 +94,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card33b"
+            android:id="@+id/c4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -104,7 +104,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card32b"
+            android:id="@+id/c5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -114,7 +114,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card31b"
+            android:id="@+id/c6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -124,7 +124,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card30b"
+            android:id="@+id/c7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -134,7 +134,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card29b"
+            android:id="@+id/c8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -145,129 +145,7 @@
 
 
         <ImageView
-            android:id="@+id/card1b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card2b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card3b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card4b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card5b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card6b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card7b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card8b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card9b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card101b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card102b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card103b"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:onClick="onCardClick"
-            android:scaleType="centerInside"
-            android:src="@drawable/card_back" />
-
-        <ImageView
-            android:id="@+id/card104b"
+            android:id="@+id/c9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -278,7 +156,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card105b"
+            android:id="@+id/c10"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -288,7 +166,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card106b"
+            android:id="@+id/c11"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -298,7 +176,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card28b"
+            android:id="@+id/c12"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -308,7 +186,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card108b"
+            android:id="@+id/c13"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -318,7 +196,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card109b"
+            android:id="@+id/c14"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -328,7 +206,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card110b"
+            android:id="@+id/c15"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -338,7 +216,7 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card111b"
+            android:id="@+id/c16"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -348,7 +226,18 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card27b"
+            android:id="@+id/c17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c18"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -358,7 +247,118 @@
             android:src="@drawable/card_back" />
 
         <ImageView
-            android:id="@+id/card26b"
+            android:id="@+id/c19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="onCardClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/card_back" />
+
+        <ImageView
+            android:id="@+id/c30"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"

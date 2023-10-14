@@ -4,18 +4,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E4DABA"
+        android:columnCount="5"
+        android:rowCount="1">
+
+
+
+
+
+        <!-- Child views for the first GridLayout -->
+        <!-- Define your buttons, images, or other views here -->
+
+    </GridLayout>
+
 <GridLayout android:layout_width="match_parent"
     android:background="#E4DABA"
     android:layout_height="wrap_content"
     android:columnCount="5"
-    android:rowCount="1"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-<ImageView
+    android:rowCount="1">
+
+
+    <ImageView
+        android:id="@+id/returnHome"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:layout_column="1"
+        android:layout_marginLeft='10dp'
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/g2821" />
+
+
+    <ImageView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="50dp"
+        android:layout_marginRight='140dp'
     app:srcCompat="@drawable/g28739">
+
 
 </ImageView>  </GridLayout>
 

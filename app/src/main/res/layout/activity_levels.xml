@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- First GridLayout -->
+
+    <!-- Second GridLayout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E4DABA"
+        android:columnCount="5"
+        android:rowCount="1">
+
+        <ImageView
+            android:id="@+id/returnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft='10dp'
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/g2821" />
+
+        <TextView
+            android:text="under construction"
+            ></TextView>
+
+
+
+
+        <!-- Child views for the first GridLayout -->
+        <!-- Define your buttons, images, or other views here -->
+
+    </GridLayout>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:background="#E4DABA"
+        android:padding="16dp"
+        android:rowCount="4">
+
+        <TextView
+            android:id="@+id/bestTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Time: N/A" />
+
+        <TextView
+            android:id="@+id/bestMovesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Moves: 0" />
+
+
+
+
+        <!-- Add 6 more ImageView elements with different src attributes for your 8 images -->
+
+    </GridLayout>
+
+</LinearLayout>
