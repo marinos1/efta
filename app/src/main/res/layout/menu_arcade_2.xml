@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#518ea0"
+        android:columnCount="5"
+        android:rowCount="1">
+
+
+
+
+
+        <!-- Child views for the first GridLayout -->
+        <!-- Define your buttons, images, or other views here -->
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#518ea0"
+        android:columnCount="5"
+        android:rowCount="1">
+
+
+        <ImageView
+            android:id="@+id/returnHome"
+            android:layout_width="47dp"
+            android:layout_height="31dp"
+            android:layout_column="1"
+            android:layout_marginLeft='10dp'
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/image5680" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight='140dp'
+            app:srcCompat="@drawable/g28739">
+
+
+        </ImageView>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#518ea0"
+        >
+
+
+        <ImageView
+            android:id="@+id/card11"
+            android:layout_width="219dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="100dp"
+            android:onClick="onCardClick"
+
+            android:src="@drawable/cat44" />
+
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_width="219dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-220dp"
+            android:layout_marginTop="180dp"
+            android:onClick="onCardClick"
+            android:src="@drawable/cat2" />
+
+
+
+        <ImageView
+            android:id="@+id/card4"
+            android:onClick="onCardClick"
+            android:layout_width="229dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-224dp"
+            android:layout_marginTop="260dp"
+            android:src="@drawable/cat5"
+           />
+
+        <ImageView
+            android:id="@+id/card2"
+            android:onClick="onCardClick"
+            android:layout_width="219dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-224dp"
+            android:layout_marginTop="340dp"
+            android:src="@drawable/cat6"
+            />
+
+
+
+        <!-- Add 6 more ImageView elements with different src attributes for your 8 images -->
+
+    </GridLayout>
+</LinearLayout>

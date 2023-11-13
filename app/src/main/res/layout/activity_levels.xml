@@ -45,16 +45,17 @@
         android:rowCount="4">
 
         <TextView
-            android:id="@+id/bestTimeTextView"
+            android:id="@+id/movesTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Best Time: N/A" />
+            android:text="Moves: " />
 
         <TextView
-            android:id="@+id/bestMovesTextView"
+            android:id="@+id/timeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Best Moves: 0" />
+            android:text="Time: " />
+
 
 
 

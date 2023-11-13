@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- First GridLayout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:background="#518ea0"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="1">
+
+
+        <ImageView
+            android:layout_width="393dp"
+            android:layout_height="151dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/matchy4">
+
+
+        </ImageView>
+
+
+        <!-- Child views for the first GridLayout -->
+        <!-- Define your buttons, images, or other views here -->
+
+    </GridLayout>
+
+    <!-- Second GridLayout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#518ea0"
+        >
+
+        <ImageView
+            android:id="@+id/bac"
+            android:layout_width="337dp"
+            android:layout_height="482dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/image41165"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/btn_new_game"
+            android:layout_width="219dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:rotationX="0"
+            app:srcCompat="@drawable/play2" />
+
+        <ImageView
+            android:id="@+id/music_setting"
+            android:layout_width="219dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginTop="230dp"
+            android:gravity="center"
+            android:rotationX="0"
+            app:srcCompat="@drawable/set2" />
+
+        <ImageView
+            android:id="@+id/levels"
+            android:layout_width="217dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginTop="300dp"
+            android:gravity="center"
+            android:rotationX="0"
+            app:srcCompat="@drawable/lev2" />
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="219dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginTop="370dp"
+            android:gravity="center"
+            android:rotationX="0"
+            app:srcCompat="@drawable/image306" />
+
+
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
